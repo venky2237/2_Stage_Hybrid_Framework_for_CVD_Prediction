@@ -1,0 +1,17 @@
+# Ignore Python virtual environment and caches
+cardio_flask/venv/
+cardio_flask/__pycache__/
+cardio_flask/.env
+
+# Ignore Node modules from your React frontend
+cardioai/node_modules/
+
+# Ignore your heavy machine learning models
+cardio_flask/*.pkl
+cardio_flask/*.keras
+
+# Ignore generated PDF reports
+cardio_flask/*.pdf
+
+# Ignore editor configurations
+.vscode/

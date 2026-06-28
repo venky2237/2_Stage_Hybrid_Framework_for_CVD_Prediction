@@ -1,0 +1,16 @@
+Frontend :-
+
+1. npm install
+2. npm run dev
+
+Backend :-
+
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install -r requirements.txt
+ 
+& "D:\postgressql\bin\psql.exe" -U postgres -f schema.sql /// & "C:\Program Files\PostgreSQL\17\bin\psql.exe" -U postgres -f schema.sql
+
+python app.py
